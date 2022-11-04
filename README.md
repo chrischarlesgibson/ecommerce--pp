@@ -1,20 +1,19 @@
-# ecommerce app
+# ecommerce backend
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
 
-BusinessWeb is a command line application that helps business owners create a database for thier business. It is intended to be used as a way to hold information about your employees, your roles and your departments. Teamified uses node.js,Inquirer and mysql to allow users to input their business's data into sql tables and databases.
+The purpose of this project was to create a backend for a future ecommerce site. The backend uses mysql2, express and sequelize to construct the database that contains all product information that can be accessed, created ,updated or deleted through api queries.
 
 ## Table of Contents
 
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Contributing guidlines](#Contributing)
+- [Contributing guidelines](#Contributing)
 - [License](#License)
 - [Badges](#Badges)
-- [Questions](#Questions)
 
 ## Installation
 
@@ -22,15 +21,15 @@ Node.js, Inquirer, console.table and mysql2 are required to use this tool. If yo
 
 ## Usage
 
-First, download the dependencies by running "npm install", next go into mysql shell and import the seed and schema files by running "source schema.sql" and then "source seed.sql". Next,go to the command line in the folder that holds your index.js file. Finally, type "node index.js" and click enter. The user will then see the actions directory and from there the user can choose what actions to take on their businessWeb.
+First, download the dependencies by running "npm install", next go into mysql shell and import the schema files by running "source schema.sql" and then exit the shell. Run "npm run seed" in the terminal and next go to the command line in the folder that holds your server.js file. Finally, type "node server.js" and click enter. Go to Insomnia and test out the routes yourself to see how it works!
 
-[click this video link for a demo of BusinessWeb in action!](https://youtu.be/Iqzj7Y3wqA4)
+[click this video link for a demo of ecommerce backend in action!](https://youtu.be/sd-ELRlcmcM)
 
-![BusinessWeb photo](./Assets/BusinessWeb.png)
+![ecommerce backend](./Assets/insomnia%20routes.png)
 
 ## License
 
-Licenseed under the MIT license.[License details here](https://opensource.org/licenses/MIT)
+Licensed under the MIT license.[License details here](https://opensource.org/licenses/MIT)
 
 ## Built With:
 
@@ -38,7 +37,9 @@ Licenseed under the MIT license.[License details here](https://opensource.org/li
 - node.js
 - Inquirer
 - mysql2
-- table.console
+- dotenv
+- express
+- sequelize
 
 ## Badges
 
@@ -46,7 +47,7 @@ Licenseed under the MIT license.[License details here](https://opensource.org/li
 
 ## Contributing Guidlines
 
-If you would like to contribute to this tool, please contact me and we can discuss further.
+If you would like to contribute to the backend for this app, please contact me and we can discuss further.
 
 ## Creator info
 
@@ -55,7 +56,3 @@ If you would like to contribute to this tool, please contact me and we can discu
 - [Link to Chris's Portfolio Site](https://chrischarlesgibson.github.io/Chris-Gibson-project-portfolio/)
 - [Link to Chris's Github](https://github.com/chrischarlesgibson)
 - [Link to Chris's LinkedIn](https://www.linkedin.com/in/chris-gibson-415909250/)
-
-## Questions
-
-If you are experiencing any issues, you can contact me at my github account [chrischarlesgibson](https://github.com/chrischarlesgibson) or contact me through email at chrischarlesgibson@gmail.com
