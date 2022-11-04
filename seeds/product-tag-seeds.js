@@ -1,5 +1,5 @@
-const { ProductTag } = require('../models');
-
+const { ProductTag } = require("../models");
+//seed data that is importted into mysql through the package.json file  via the index.js file when you run nmp run seed in the terminal
 const productTagData = [
   {
     product_id: 1,

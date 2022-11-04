@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require("sequelize");
 
 const sequelize = require("../config/connection.js");
-
+//create category model to use in routes. whatever you put in the model is how the resonse data will look
 class Category extends Model {}
 
 Category.init(

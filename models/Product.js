@@ -5,7 +5,7 @@ const sequelize = require("../config/connection");
 
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model {}
-
+//create product model to use in routes. whatever you put in the model is how the resonse data will look
 // set up fields and rules for Product model
 Product.init(
   {
